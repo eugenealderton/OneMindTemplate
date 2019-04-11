@@ -1,0 +1,215 @@
+/* Universal data for css sheet */
+* {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* Main website structure */
+body {
+  line-height: 30px;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+div {
+  padding: 5px;
+  border: 5px;
+  margin: 5px;
+}
+
+/* Header Structure */
+.header {
+  text-align: center;
+  Background-color: black;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+}
+
+.headerbox {
+  display: inline-block;
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+  float: left;
+}
+
+
+/* Main Site Internal Business Content */
+.sitenav {
+  overflow: hidden;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  float: right;
+  width: 100%;
+}
+
+.sitenav a {
+  color: #c8aef3;
+  padding: 1px 15px 1px 15px;
+  display: inline-block;
+  float: right;
+}
+
+/* Main Site Content Information Navigation*/
+.headernav {
+  text-align: left;
+  width: 100%;
+}
+
+.navbox {
+  display: inline-block;
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+    Background-color: #333;
+}
+
+.topnav {
+  overflow: hidden;
+  margin: 0;
+  padding: 0px;
+  float: left;
+  width: 100%;
+}
+
+.topnav a {
+  color: #c8aef3;
+  padding: 1px 15px 1px 15px;
+  font-size: 17px;
+  display: inline-block;
+  float: left;
+}
+
+/* Main Body of Content Style */
+.body_container {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 0px;
+  padding: 0px;
+}
+
+.content1, .content2, .content3, .sidecontent1, .sidecontent2 {
+  background-color: #c1c1f0;
+}
+
+/* Current Page Title Informing User of Page */
+.pagetitle {
+  text-align: left;
+  width: 100%;
+  color: #4646d2;
+}
+
+/* Main Content for Page, Stays on Left Side */
+.info {
+  float: left;
+  width: 68%;
+}
+
+/* Sidebar Used for Navigation / Links to Examples Relating to Main Content */
+.sidebar {
+  float: right;
+  width: 30%;
+}
+
+.sidenav {
+  width: 100%;
+  border-top: 1px solid #1f30b6;
+  border-bottom: 1px solid #1f30b6;
+  margin: 5px 0px 10px 0px;
+}
+
+.sidenav a {
+  color: black;
+  display: block;
+}
+
+/* Footer Structure */
+.footer {
+  text-align: center;
+  Background-color: black;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  display: inline-block;
+}
+
+.footerbox {
+  display: block;
+  margin: 0 auto;
+  border: 0px;
+  padding: 0px;
+  width: 1000px;
+  position: relative;
+}
+
+.footernav {
+  width: 30%;
+  color: #c8aef3;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  display: inline-block;
+  float: left;
+}
+.footernav a {
+  width: 100%;
+  color: #c8aef3;
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+  display: inline-block;
+}
+
+.contactinfo {
+  width: 30%;
+  color: #c8aef3;
+  float: left;
+}
+
+.contactinfo p {
+  margin: 0px;
+  border: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.extra {
+  width: 30%;
+  color: #c8aef3;
+  display: inline-block;
+  float: right;
+}
+
+.contactinfo p {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* Universal Navigation Look */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #c1c1f0;
+  color: black;
+}

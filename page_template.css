@@ -21,6 +21,12 @@ div {
   margin: 5px;
 }
 
+h1, h2, h3, h4, h5, h6
+.heading {
+	color: #133bd3;
+	font-weight: bold;
+}
+
 /* Header Structure */
 .header {
   text-align: center;
@@ -73,7 +79,7 @@ div {
   margin: 0 auto;
   width: 1000px;
   position: relative;
-    Background-color: #333;
+  Background-color: #333;
 }
 
 .topnav {
@@ -105,7 +111,8 @@ div {
 }
 
 .content1, .content2, .content3, .sidecontent1, .sidecontent2 {
-  background-color: #c1c1f0;
+  background-color: #d2d2f0;
+  text-align: left;
 }
 
 /* Current Page Title Informing User of Page */
